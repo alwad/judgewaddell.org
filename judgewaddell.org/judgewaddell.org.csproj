@@ -3192,7 +3192,13 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\img\bg.jpg" />
+    <Content Include="Content\img\Black-Blue-Bird.png" />
+    <Content Include="Content\img\gcf-large.png" />
+    <Content Include="Content\img\hh-logo2.png" />
+    <Content Include="Content\img\logo-2.png" />
     <Content Include="Content\img\logo.png" />
+    <Content Include="Content\img\logo.svg" />
+    <Content Include="Content\img\tagline.png" />
     <Content Include="Content\img\Waddell-1967-page-2-slider.png" />
     <Content Include="Content\img\Waddell-1967-page-2.jpg" />
     <Content Include="favicon.ico" />
