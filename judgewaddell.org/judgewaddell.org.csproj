@@ -3197,8 +3197,10 @@
     <Content Include="Content\gallery\Waddell 1944 page 2.jpg" />
     <Content Include="Content\img\bg.jpg" />
     <Content Include="Content\img\Black-Blue-Bird.png" />
+    <Content Include="Content\img\eew_sized.jpg" />
     <Content Include="Content\img\gcf-large.png" />
     <Content Include="Content\img\hh-logo2.png" />
+    <Content Include="Content\img\Hilltopper1954_sm.jpg" />
     <Content Include="Content\img\logo-2.png" />
     <Content Include="Content\img\logo.png" />
     <Content Include="Content\img\logo.svg" />
@@ -5143,6 +5145,8 @@
     <Content Include="Views\Shared\Footer.cshtml" />
     <Content Include="Scripts\version.json" />
     <Content Include="Views\About\Gallery.cshtml" />
+    <Content Include="Views\About\Scholarship.cshtml" />
+    <Content Include="Views\About\TheJudge.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="app\controller\" />
