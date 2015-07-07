@@ -1,0 +1,18 @@
+<!doctype html>
+<html ng-app>
+<head>
+    <title>Hello AngularJS</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script>
+    <script src="/app/controller/awardController.js"></script>
+</head>
+
+<body ng-controller="awardController">
+    <div ng-repeat="award in awards">
+        <p>
+            The name is {{award.scholar}} <br />
+            The desc is {{award.desc}} <br />
+            The date is {{award.awardDate}} <br />
+        </p>
+    </div>
+</body>
+</html>
