@@ -28,6 +28,13 @@ namespace judgewaddell.org.Controllers
         }
 
         [HttpGet]
+        public ActionResult Books()
+        {
+            return View();
+        }
+
+
+        [HttpGet]
         public ActionResult Gallery()
         {
             ViewBag.Images = Directory.EnumerateFiles(Server.MapPath("~/content/gallery"))
