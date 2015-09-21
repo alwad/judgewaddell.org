@@ -26,3 +26,9 @@ textarea {
 .da-slider {
     background: transparent url("/content/img/bg.jpg") repeat scroll 0 0;
 }
+
+.breadcrumbs-scholarship {
+  background: url(/Content/img/breadcrumbs/img3.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+}

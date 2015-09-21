@@ -215,6 +215,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\ContactController.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\AboutController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -356,6 +357,9 @@
     <Content Include="assets\img\breadcrumbs\img1.jpg" />
     <Content Include="assets\img\breadcrumbs\img2.jpg" />
     <Content Include="assets\img\breadcrumbs\img3.jpg" />
+    <Content Include="Content\img\breadcrumbs\img1.jpg" />
+    <Content Include="Content\img\breadcrumbs\img2.jpg" />
+    <Content Include="Content\img\breadcrumbs\img3.jpg" />
     <Content Include="assets\img\clients2\austrian-airlines.png" />
     <Content Include="assets\img\clients2\baderbrau.png" />
     <Content Include="assets\img\clients2\bellfield.png" />
@@ -4308,7 +4312,7 @@
     <Content Include="assets\plugins\vector-map\README.md" />
     <Content Include="assets\plugins\wow-animations\LICENSE-MIT" />
     <Content Include="assets\plugins\wow-animations\README.md" />
-    <None Include="Properties\PublishProfiles\judgewaddellorg.pubxml" />
+    <None Include="Properties\PublishProfiles\judgewaddellorg - east us 1.pubxml" />
     <Content Include="Scripts\angular-animate.js" />
     <Content Include="Scripts\angular-animate.min.js" />
     <Content Include="Scripts\angular-aria.js" />
@@ -5150,6 +5154,8 @@
     <Content Include="Views\About\Gallery.cshtml" />
     <Content Include="Views\About\Scholarship.cshtml" />
     <Content Include="Views\About\TheJudge.cshtml" />
+    <Content Include="Views\About\Awards.cshtml" />
+    <Content Include="Views\Contact\Home.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

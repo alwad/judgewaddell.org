@@ -1,0 +1,246 @@
+﻿@{
+    ViewBag.Title = "The Waddell Scholars";
+}
+
+@section styles {
+}
+
+@section scripts {
+    <script type="text/javascript" src="/assets/plugins/revolution-slider/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+    <script type="text/javascript" src="/assets/plugins/revolution-slider/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+
+    <script src="/app/controller/awardController.js"></script>
+    <script type="text/javascript" src="/assets/js/plugins/revolution-slider.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            RevolutionSlider.initRSfullWidth();
+        });
+    </script>
+}
+
+<div class="tp-banner-container">
+    <div class="tp-banner">
+        <ul>
+            <!-- SLIDE -->
+            <li class="revolution-mch-1" data-transition="fade" data-slotamount="5" data-masterspeed="1000" data-title="Slide 1">
+                <!-- MAIN IMAGE -->
+                <img src="/assets/img/sliders/1.jpg" alt="darkblurbg" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+
+                <div class="tp-caption revolution-ch1 sft start"
+                     data-x="center"
+                     data-hoffset="0"
+                     data-y="100"
+                     data-speed="1500"
+                     data-start="500"
+                     data-easing="Back.easeInOut"
+                     data-endeasing="Power1.easeIn"
+                     data-endspeed="300">
+                    Introducing Unify Template
+                </div>
+
+                <!-- LAYER -->
+                <div class="tp-caption revolution-ch2 sft"
+                     data-x="center"
+                     data-hoffset="0"
+                     data-y="190"
+                     data-speed="1400"
+                     data-start="2000"
+                     data-easing="Power4.easeOut"
+                     data-endspeed="300"
+                     data-endeasing="Power1.easeIn"
+                     data-captionhidden="off"
+                     style="z-index: 6">
+                    We are creative technology company providing <br />
+                    key digital services on web and mobile.
+                </div>
+
+                <!-- LAYER -->
+                <div class="tp-caption sft"
+                     data-x="center"
+                     data-hoffset="0"
+                     data-y="310"
+                     data-speed="1600"
+                     data-start="2800"
+                     data-easing="Power4.easeOut"
+                     data-endspeed="300"
+                     data-endeasing="Power1.easeIn"
+                     data-captionhidden="off"
+                     style="z-index: 6">
+                    <a href="#" class="btn-u btn-brd btn-brd-hover btn-u-light">Learn More</a>
+                    <a href="#" class="btn-u btn-brd btn-brd-hover btn-u-light">Our Work</a>
+                </div>
+            </li>
+            <!-- END SLIDE -->
+            <!-- SLIDE -->
+            <li class="revolution-mch-1" data-transition="fade" data-slotamount="5" data-masterspeed="1000" data-title="Slide 2">
+                <!-- MAIN IMAGE -->
+                <img src="/assets/img/sliders/2.jpg" alt="darkblurbg" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+
+                <div class="tp-caption revolution-ch1 sft start"
+                     data-x="center"
+                     data-hoffset="0"
+                     data-y="100"
+                     data-speed="1500"
+                     data-start="500"
+                     data-easing="Back.easeInOut"
+                     data-endeasing="Power1.easeIn"
+                     data-endspeed="300">
+                    Includes 160+ Template Pages
+                </div>
+
+                <!-- LAYER -->
+                <div class="tp-caption revolution-ch2 sft"
+                     data-x="center"
+                     data-hoffset="0"
+                     data-y="190"
+                     data-speed="1400"
+                     data-start="2000"
+                     data-easing="Power4.easeOut"
+                     data-endspeed="300"
+                     data-endeasing="Power1.easeIn"
+                     data-captionhidden="off"
+                     style="z-index: 6">
+                    We are creative technology company providing <br />
+                    key digital services on web and mobile.
+                </div>
+
+                <!-- LAYER -->
+                <div class="tp-caption sft"
+                     data-x="center"
+                     data-hoffset="0"
+                     data-y="310"
+                     data-speed="1600"
+                     data-start="2800"
+                     data-easing="Power4.easeOut"
+                     data-endspeed="300"
+                     data-endeasing="Power1.easeIn"
+                     data-captionhidden="off"
+                     style="z-index: 6">
+                    <a href="#" class="btn-u btn-brd btn-brd-hover btn-u-light">Learn More</a>
+                    <a href="#" class="btn-u btn-brd btn-brd-hover btn-u-light">Our Work</a>
+                </div>
+            </li>
+            <!-- END SLIDE -->
+            <!-- SLIDE -->
+            <li class="revolution-mch-1" data-transition="fade" data-slotamount="5" data-masterspeed="1000" data-title="Slide 3">
+                <!-- MAIN IMAGE -->
+                <img src="/assets/img/sliders/3.jpg" alt="darkblurbg" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+
+                <div class="tp-caption revolution-ch1 sft start"
+                     data-x="center"
+                     data-hoffset="0"
+                     data-y="100"
+                     data-speed="1500"
+                     data-start="500"
+                     data-easing="Back.easeInOut"
+                     data-endeasing="Power1.easeIn"
+                     data-endspeed="300">
+                    Over 12000+ Satisfied Users
+                </div>
+
+                <!-- LAYER -->
+                <div class="tp-caption revolution-ch2 sft"
+                     data-x="center"
+                     data-hoffset="0"
+                     data-y="190"
+                     data-speed="1400"
+                     data-start="2000"
+                     data-easing="Power4.easeOut"
+                     data-endspeed="300"
+                     data-endeasing="Power1.easeIn"
+                     data-captionhidden="off"
+                     style="z-index: 6">
+                    We are creative technology company providing <br />
+                    key digital services on web and mobile.
+                </div>
+
+                <!-- LAYER -->
+                <div class="tp-caption sft"
+                     data-x="center"
+                     data-hoffset="0"
+                     data-y="310"
+                     data-speed="1600"
+                     data-start="2800"
+                     data-easing="Power4.easeOut"
+                     data-endspeed="300"
+                     data-endeasing="Power1.easeIn"
+                     data-captionhidden="off"
+                     style="z-index: 6">
+                    <a href="#" class="btn-u btn-brd btn-brd-hover btn-u-light">Learn More</a>
+                    <a href="#" class="btn-u btn-brd btn-brd-hover btn-u-light">Our Work</a>
+                </div>
+            </li>
+            <!-- END SLIDE -->
+        </ul>
+        <div class="tp-bannertimer tp-bottom"></div>
+    </div>
+</div>
+<!--=== End Slider ===-->
+
+
+<div class="container-fluid" ng-controller="awardController">
+    <!-- Team Blcoks -->
+    <div class="row team-v7 no-gutter equal-height-columns">
+        <div class="col-md-6 team-arrow-right">
+            <div class="dp-table">
+                <div class="equal-height-column dp-table-cell team-v7-in" style="height: 423px;">
+                    <span class="team-v7-name">Daniel Wearne</span>
+                    <span class="team-v7-position">Co-Founder / CEO</span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget varius leo, at elementum eros. Fusce tristique, ipsum egestas fermentum imperdiet, ex nunc iaculis sem, a semper augue turpis ut nulla. Nam condimentum arcu eu diam gravida cursus. Morbi ante eros, lobortis sit amet tempus in, fermentum vitae neque.</p>
+                    <ul class="list-inline social-icons-v1">
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 team-v7-img">
+            <img alt="" src="" class="img-responsive full-width equal-height-column" style="height: 423px;">
+        </div>
+    </div>
+    <!-- End Team Blcoks -->
+    <!-- Team Blcoks -->
+    <div class="row team-v7 no-gutter equal-height-columns">
+        <div class="col-md-6 col-md-push-6 team-arrow-left">
+            <div class="dp-table">
+                <div class="equal-height-column dp-table-cell team-v7-in" style="height: 423px;">
+                    <span class="team-v7-name">Kate Metus</span>
+                    <span class="team-v7-position">Co-Founder/ UX Design</span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget varius leo, at elementum eros. Fusce tristique, ipsum egestas fermentum imperdiet, ex nunc iaculis sem, a semper augue turpis ut nulla. Nam condimentum arcu eu diam gravida cursus. Morbi ante eros, lobortis sit amet tempus in, fermentum vitae neque.</p>
+                    <ul class="list-inline social-icons-v1">
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-md-pull-6 team-v7-img">
+            <img alt="" src="/assets/img/team/img-v2.jpg" class="img-responsive full-width equal-height-column" style="height: 423px;">
+        </div>
+    </div>
+    <!-- End Team Blcoks -->
+    <!-- Team Blcoks -->
+    <div class="row team-v7 no-gutter equal-height-columns">
+        <div class="col-md-6 team-arrow-right">
+            <div class="dp-table">
+                <div class="equal-height-column dp-table-cell team-v7-in" style="height: 423px;">
+                    <span class="team-v7-name">George Collin</span>
+                    <span class="team-v7-position">Web Developer</span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget varius leo, at elementum eros. Fusce tristique, ipsum egestas fermentum imperdiet, ex nunc iaculis sem, a semper augue turpis ut nulla. Nam condimentum arcu eu diam gravida cursus. Morbi ante eros, lobortis sit amet tempus in, fermentum vitae neque.</p>
+                    <ul class="list-inline social-icons-v1">
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 team-v7-img">
+            <img alt="" src="/assets/img/team/img-v3.jpg" class="img-responsive full-width equal-height-column" style="height: 423px;">
+        </div>
+    </div>
+    <!-- End Team Blcoks -->
+</div>
