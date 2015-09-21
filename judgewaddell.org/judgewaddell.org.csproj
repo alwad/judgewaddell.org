@@ -215,6 +215,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\ErrorController.cs" />
     <Compile Include="Controllers\PrivacyController.cs" />
     <Compile Include="Controllers\ContactController.cs" />
     <Compile Include="Controllers\AccountController.cs" />
@@ -5159,6 +5160,7 @@
     <Content Include="Views\Contact\Home.cshtml" />
     <Content Include="Views\About\Books.cshtml" />
     <Content Include="Views\Privacy\Policy.cshtml" />
+    <Content Include="Views\Error\404.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

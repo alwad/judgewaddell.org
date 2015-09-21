@@ -15,7 +15,7 @@
                         <div class="posts">
                             <div class="headline"><h2>Latest Posts</h2></div>
                             <ul class="list-unstyled latest-list">
-                                <li>
+                                @*<li>
                                     <a href="#">Incredible content</a>
                                     <small>May 8, 2014</small>
                                 </li>
@@ -26,7 +26,7 @@
                                 <li>
                                     <a href="#">New Terms and Conditions</a>
                                     <small>September 15, 2014</small>
-                                </li>
+                                </li>*@
                             </ul>
                         </div>
                     </div>  
@@ -67,7 +67,7 @@
                     <div class="col-md-6">                     
                         <p>
                             @DateTime.Now.Year.ToString() &copy; All Rights Reserved.
-                           <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+                           @Html.ActionLink("Privacy Policy", "Policy", "Privacy") | <a href="#">Terms of Service</a>
                         </p>
                     </div>
 
