@@ -215,6 +215,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\ScholarsController.cs" />
     <Compile Include="Controllers\PrivacyController.cs" />
     <Compile Include="Controllers\ContactController.cs" />
     <Compile Include="Controllers\AccountController.cs" />
@@ -4314,7 +4315,6 @@
     <Content Include="assets\plugins\wow-animations\LICENSE-MIT" />
     <Content Include="assets\plugins\wow-animations\README.md" />
     <Content Include="Content\pdf\donate.pdf" />
-    <None Include="Properties\PublishProfiles\judgewaddellorg - east us 1.pubxml" />
     <Content Include="Scripts\angular-animate.js" />
     <Content Include="Scripts\angular-animate.min.js" />
     <Content Include="Scripts\angular-aria.js" />
@@ -5162,9 +5162,11 @@
     <Content Include="Views\Privacy\Policy.cshtml" />
     <Content Include="Views\About\RiceLetter.cshtml" />
     <Content Include="Views\About\Donate.cshtml" />
+    <Content Include="Views\Scholars\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Properties\PublishProfiles\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
