@@ -33,7 +33,17 @@ namespace judgewaddell.org.Controllers
             return View();
         }
 
+        [HttpGet]
+        public ActionResult RiceLetter()
+        {
+            return View();
+        }
 
+        [HttpGet]
+        public ActionResult Donate()
+        {
+            return View();
+        }
         [HttpGet]
         public ActionResult Gallery()
         {
