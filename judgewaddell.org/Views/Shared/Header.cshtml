@@ -9,7 +9,7 @@
 		<!-- Topbar -->
 		<div class="topbar">
 			<ul class="loginbar pull-right">
-                <i class="fa fa-key"></i>
+				<i class="fa fa-key"></i>
 				<li><a href="page_login.html">Login</a></li>
 			</ul>
 		</div>
@@ -25,30 +25,35 @@
 	<div class="collapse navbar-collapse mega-menu navbar-responsive-collapse">
 		<div class="container">
 			<ul class="nav navbar-nav">
-                <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="javascript:void(0);"> About </a>
-                    <ul class="dropdown-menu">
-                        <li>
-                            @Html.ActionLink("\"The Judge\"", "TheJudge", "About")
-                        </li>
-                        <li>
-                            @Html.ActionLink("Scholarship", "Scholarship", "About")
-                        </li>
-                        <li>
-                            @Html.ActionLink("Gallery", "Gallery", "About")
-                        </li>
-                    </ul>
-                </li>
-                <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="javascript:void(0);"> Foundation </a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">Donate</a></li>
-                        <li>
-                            @Html.ActionLink("Book Orders", "Books", "About")
-                        </li>
-                    </ul>
-                </li>
-                <li>@Html.ActionLink("Contact", "Home", "Contact")</li>
+				<li class="dropdown">
+					<a class="dropdown-toggle" data-toggle="dropdown" href="javascript:void(0);"> About </a>
+					<ul class="dropdown-menu">
+						<li>
+							@Html.ActionLink("\"The Judge\"", "TheJudge", "About")
+						</li>
+						<li>
+							@Html.ActionLink("Scholarship", "Scholarship", "About")
+						</li>
+						<li>
+							@Html.ActionLink("Meet the scholars", "Index", "Scholars")
+						</li>
+						<li>
+							@Html.ActionLink("Gallery", "Gallery", "About")
+						</li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a class="dropdown-toggle" data-toggle="dropdown" href="javascript:void(0);"> Foundation </a>
+					<ul class="dropdown-menu">
+						<li>
+							@Html.ActionLink("Donate", "Donate", "About")
+						</li>
+						<li>
+							@Html.ActionLink("Book Orders", "Books", "About")
+						</li>
+					</ul>
+				</li>
+				<li>@Html.ActionLink("Contact", "Home", "Contact")</li>
 
 				<!-- Search Block -->
 				<li>
