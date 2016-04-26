@@ -42,7 +42,7 @@
                             <li>@Html.ActionLink("Contact", "Home", "Contact")<i class="fa fa-angle-right"></i></li>
                         </ul>
                     </div>
-                    <!-- End Link List -->                    
+                    <!-- End Link List -->
 
                     <!-- Address -->
                     <div class="col-md-3 map-img md-margin-bottom-40">
@@ -67,18 +67,18 @@
                     <div class="col-md-6">                     
                         <p>
                             @DateTime.Now.Year.ToString() &copy; All Rights Reserved.
-                           @Html.ActionLink("Privacy Policy", "Policy", "Privacy") | <a href="#">Terms of Service</a>
+                           @Html.ActionLink("Privacy Policy", "Policy", "Privacy") | @Html.ActionLink("Terms of service", "Policy", "Terms")
                         </p>
                     </div>
 
                     <!-- Social Links -->
                     <div class="col-md-6">
                         <ul class="footer-socials list-inline">
-                            <li>
+                            @*<li>
                                 <a data-original-title="Facebook" title="" data-placement="top" data-toggle="tooltip" class="tooltips" href="#">
                                     <i class="fa fa-facebook"></i>
                                 </a>
-                            </li>
+                            </li>*@
                             @*<li>
                                 <a data-original-title="Skype" title="" data-placement="top" data-toggle="tooltip" class="tooltips" href="#">
                                     <i class="fa fa-skype"></i>
@@ -89,21 +89,21 @@
                                     <i class="fa fa-google-plus"></i>
                                 </a>
                             </li>*@
-                            <li>
+                            @*<li>
                                 <a data-original-title="Linkedin" title="" data-placement="top" data-toggle="tooltip" class="tooltips" href="#">
                                     <i class="fa fa-linkedin"></i>
                                 </a>
-                            </li>
+                            </li>*@
                             @*<li>
                                 <a data-original-title="Pinterest" title="" data-placement="top" data-toggle="tooltip" class="tooltips" href="#">
                                     <i class="fa fa-pinterest"></i>
                                 </a>
                             </li>*@
-                            <li>
+                            @*<li>
                                 <a data-original-title="Twitter" title="" data-placement="top" data-toggle="tooltip" class="tooltips" href="#">
                                     <i class="fa fa-twitter"></i>
                                 </a>
-                            </li>
+                            </li>*@
                             @*<li>
                                 <a data-original-title="Dribbble" title="" data-placement="top" data-toggle="tooltip" class="tooltips" href="#">
                                     <i class="fa fa-dribbble"></i>
