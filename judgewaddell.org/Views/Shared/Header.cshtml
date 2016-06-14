@@ -60,9 +60,9 @@
 					<i class="search fa fa-search search-btn"></i>
 					<div class="search-open">
 						<div class="input-group animated fadeInDown">
-							<input type="text" class="form-control" placeholder="Search">
+							<input type="text" class="form-control" placeholder="Search" id="searchtext">
 							<span class="input-group-btn">
-								<button class="btn-u" type="button">Go</button>
+								<button class="btn-u" type="button" onclick="window.open('https://www.google.com/?q=site:judgewaddell.org+' + $('#searchtext').val())">Go</button>
 							</span>
 						</div>
 					</div>
