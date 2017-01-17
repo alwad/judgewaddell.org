@@ -40,27 +40,41 @@ $provide.value("$locale", {
       "Desember"
     ],
     "SHORTDAY": [
-      "So",
-      "Ma",
-      "Di",
-      "Wo",
-      "Do",
-      "Vr",
-      "Sa"
+      "So.",
+      "Ma.",
+      "Di.",
+      "Wo.",
+      "Do.",
+      "Vr.",
+      "Sa."
     ],
     "SHORTMONTH": [
       "Jan.",
       "Feb.",
       "Mrt.",
-      "Apr",
+      "Apr.",
       "Mei",
-      "Jun",
-      "Jul",
-      "Aug",
-      "Sep",
-      "Okt",
-      "Nov",
-      "Des"
+      "Jun.",
+      "Jul.",
+      "Aug.",
+      "Sep.",
+      "Okt.",
+      "Nov.",
+      "Des."
+    ],
+    "STANDALONEMONTH": [
+      "Januarie",
+      "Februarie",
+      "Maart",
+      "April",
+      "Mei",
+      "Junie",
+      "Julie",
+      "Augustus",
+      "September",
+      "Oktober",
+      "November",
+      "Desember"
     ],
     "WEEKENDRANGE": [
       5,
@@ -97,7 +111,7 @@ $provide.value("$locale", {
         "maxFrac": 2,
         "minFrac": 2,
         "minInt": 1,
-        "negPre": "\u00a4-",
+        "negPre": "-\u00a4",
         "negSuf": "",
         "posPre": "\u00a4",
         "posSuf": ""
@@ -105,6 +119,7 @@ $provide.value("$locale", {
     ]
   },
   "id": "af-za",
+  "localeID": "af_ZA",
   "pluralCat": function(n, opt_precision) {  if (n == 1) {    return PLURAL_CATEGORY.ONE;  }  return PLURAL_CATEGORY.OTHER;}
 });
 }]);

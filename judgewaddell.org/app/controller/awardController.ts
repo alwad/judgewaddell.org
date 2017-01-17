@@ -3,10 +3,7 @@
 /// <reference path="../../scripts/typings/angularjs/angular-route.d.ts" />
 
 function awardController($scope: IAwardScope, $http: angular.IHttpService) {
-    $http.get('https://testsheets.apispark.net/v1/awards',
-        {
-            cache: true            
-        })
+    $http.get('/api/award')
         .success(function (data: IAward[]) {
             $scope.awards = data;
         });

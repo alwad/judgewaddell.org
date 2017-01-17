@@ -44,6 +44,10 @@
 	<!-- CSS Customization -->
 	<link rel="stylesheet" href="~/content/site.css">
 
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script>
+	<script src="https://cdn.rawgit.com/showdownjs/showdown/1.6.0/dist/showdown.min.js"></script>
+
+
     @RenderSection("styles", required: false)
 
 	<script type="text/javascript">
@@ -58,11 +62,11 @@
 	</script>
 	@Styles.Render("~/Content/css")
 	@Scripts.Render("~/bundles/modernizr")
-	
+
 
 </head>
 
-<body>
+<body ng-app>
 	<div class="wrapper">
 		@Html.Partial("header")
 		<div class="container body-content">

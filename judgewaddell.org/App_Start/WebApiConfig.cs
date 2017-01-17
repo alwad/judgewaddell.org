@@ -14,7 +14,10 @@ namespace judgewaddell.org
             // Web API routes
             config.MapHttpAttributeRoutes();
 
-            config.Routes.MapHttpRoute(
+			var formatters = config.Formatters;
+			formatters.Remove(formatters.XmlFormatter);
+
+			config.Routes.MapHttpRoute(
                 name: "DefaultApi",
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
