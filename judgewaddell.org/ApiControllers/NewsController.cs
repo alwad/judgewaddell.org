@@ -20,11 +20,11 @@ namespace judgewaddell.org.ApiControllers
 		{
 			var _cache = MemoryCache.Default;
 
-			var scholars = _cache.Get("scholars");
-			if (scholars != null) 
+			var cachedNews = _cache.Get("news");
+			if (cachedNews != null) 
 			{ 
 				var cacheResponse = Request.CreateResponse();
-				cacheResponse.Content = new StringContent(scholars as string, Encoding.UTF8, "application/json");
+				cacheResponse.Content = new StringContent(cachedNews as string, Encoding.UTF8, "application/json");
 				return cacheResponse;
 			}
 
@@ -35,7 +35,7 @@ namespace judgewaddell.org.ApiControllers
 			var json = await clientResponse.Content.ReadAsStringAsync();
 			response.Content = new StringContent(json, Encoding.UTF8, "application/json");
 
-			_cache.Add("scholars", json, DateTimeOffset.UtcNow.AddHours(1));
+			_cache.Add("news", json, DateTimeOffset.UtcNow.AddHours(1));
 
 			return  response;
 		}
