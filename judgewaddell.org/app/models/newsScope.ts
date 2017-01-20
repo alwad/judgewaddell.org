@@ -3,7 +3,7 @@
 /// <reference path="../../scripts/typings/angularjs/angular-route.d.ts" />
 
 interface INewsScope extends angular.IScope {
-    news: INews[],
+    news: INews[];
     MakeHtml(markdown: string): string;
 }
 

@@ -3,7 +3,8 @@
 /// <reference path="../../scripts/typings/angularjs/angular-route.d.ts" />
 
 interface IAwardScope extends angular.IScope {
-    awards: IAward[]
+    awards: IAward[];
+    MakeHtml(markdown: string): string;
 }
 
 interface IAward {

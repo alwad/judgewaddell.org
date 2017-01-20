@@ -43,11 +43,8 @@
 				<i class="cbp_tmicon rounded-x hidden-xs"></i>
 				<div class="cbp_tmlabel">
 					<h2>{{award.Headline}}</h2>
+					<p ng-bind-html="MakeHtml(award.Desc)"></p>
 					<p>
-						{{award.Desc}}
-					</p>
-					<p>
-
 					</p>
 				</div>
 			</li>
