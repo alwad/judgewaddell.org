@@ -6,8 +6,9 @@
 }
 
 @section scripts {
-
+	<script src="/app/controller/newsController.js"></script>
 }
+
 
 <div class="breadcrumbs">
 	<div class="container">
@@ -22,62 +23,24 @@
 </div>
 
 <!--=== Blog Posts ===-->
-<div class="container content-md">
+<div ng-controller="newsController" class="container content-md">
 	<!-- News v3 -->
-	<div class="row margin-bottom-20">
+	<div ng-repeat="newsItem in news" class="row margin-bottom-20">
 		<div class="col-sm-5 sm-margin-bottom-20">
-			<img class="img-responsive" src="/assets/img/main/talisman.jpg" alt="">
+			<img class="img-responsive" ng-src="{{newsItem.Image}}" alt="">
 		</div>
 		<div class="col-sm-7">
 			<div class="news-v3">
 				<ul class="list-inline posted-info">
 					<li>By Alex Waddell</li>
-					<li>In History</li>
-					<li>Posted January 6, 2017</li>
+					<li>In News and Blog</li>
+					<li>Posted {{newsItem.Date}}</li>
 				</ul>
-				<h2><a href="#">The Judge in the 1934 Talisman</a></h2>
-				<h3>Received from <a href="mailto:april.mccauley@wku.edu">April McCauley</a></h3>
-				<p>
-					Ewell Waddell appears several times in the 1934 Talisman.
-				</p>
-				<p>
-					He was senior class treasurer.  His main entry as a senior is on page 25 of the Talisman.  
-				<p>
-					He was also in two clubs, on the Talisman staff, played football, and managed basketball.  
-					But also found was that he was voted most popular boy.  
-					Additional entries for him are on the following pages: 
-					27, 88, 99, 106, 122, 126.
-				</p>
-				<p>
-					Here is a link to the 1934 Talisman on TopScholar: 
-					<a href="http://digitalcommons.wku.edu/dlsc_ua_records/348/">http://digitalcommons.wku.edu/dlsc_ua_records/348/</a>
-					Click on the link, then click on "Download" on the right side 
-					of the screen to go to the scan of the 1934 Talisman.
-				</p>
-				<p>
-					Additional documents, including previous years' Talismans are also available on TopScholar.  
-					The link below leads to a date-ordered list of documents.  
-					Scroll down to get to 1934, and use the numbers and arrows at the very bottom to navigate to 
-					earlier years.  You can also use the search box in the upper left corner to search for him by 
-					name in TopScholar. (Search for "Ewell Waddell" and "Waddell Ewell.")
-					<a href="http://digitalcommons.wku.edu/dlsc_ua_records/index.43.html#year_1934">http://digitalcommons.wku.edu/dlsc_ua_records/index.43.html#year_1934</a>
-				</p>
-				<p>
-					There were no collections for the clubs that he was in, but those clubs are 
-					mentioned in the Herald and, briefly, in other places. The catalog is also 
-					online and can be reached at <a href="http://kencat.wku.edu">kencat.wku.edu</a>.
+				<h2>{{newsItem.Title}}</h2>
+				<h3>{{newsItem.SubTitle}}</h3>
 
-				</p>
-				<p>
-					Also found in the "humor" section of the Talisman is this gem from the "class will":
-					<br />
-					<br />
-					<img class="img-responsive" src="~/Content/img/class-will.png" />
-				</p>
-				<p>
-					The Judge Waddell advisory board thanks April McCauley for sending us this information!
-				</p>
-				
+				<span ng-bind-html="MakeHtml(newsItem.Text)"></span>
+								
 			</div>
 		</div>
 	</div><!--/end row-->

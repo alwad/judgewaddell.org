@@ -226,6 +226,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ApiControllers\NewsController.cs" />
     <Compile Include="ApiControllers\AwardController.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
@@ -254,7 +255,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\controller\awardController.js" />
+    <Content Include="app\controller\newsController.js" />
     <Content Include="app\models\awardScope.js" />
+    <Content Include="app\models\newsScope.js" />
+    <Content Include="app\services\ngShowdown.js" />
     <Content Include="assets\ajax\cube-portfolio\project1.html" />
     <Content Include="assets\ajax\cube-portfolio\project2.html" />
     <Content Include="assets\ajax\cube-portfolio\project3.html" />
@@ -4456,6 +4460,8 @@
     <Content Include="Scripts\angular-animate.min.js.map" />
     <Content Include="app\controller\awardController.js.map" />
     <Content Include="app\models\awardScope.js.map" />
+    <Content Include="app\models\newsScope.js.map" />
+    <Content Include="app\controller\newsController.js.map" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Icon.png" />
     <Content Include="index.html" />
@@ -5257,6 +5263,7 @@
     <Content Include="Scripts\version.json" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="app\directives\" />
     <Folder Include="App_Data\" />
     <Folder Include="Properties\PublishProfiles\" />
   </ItemGroup>
@@ -5265,8 +5272,10 @@
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="app\controller\newsController.ts" />
     <TypeScriptCompile Include="app\controller\awardController.ts" />
     <TypeScriptCompile Include="app\models\awardScope.ts" />
+    <TypeScriptCompile Include="app\models\newsScope.ts" />
     <TypeScriptCompile Include="Scripts\typings\angularjs\angular-animate.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\angularjs\angular-cookies.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\angularjs\angular-mocks.d.ts" />

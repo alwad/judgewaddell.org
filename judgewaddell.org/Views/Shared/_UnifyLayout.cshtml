@@ -44,9 +44,14 @@
 	<!-- CSS Customization -->
 	<link rel="stylesheet" href="~/content/site.css">
 
-	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script>
-	<script src="https://cdn.rawgit.com/showdownjs/showdown/1.6.0/dist/showdown.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular-sanitize.js"></script>
+	<script src="//cdn.rawgit.com/showdownjs/showdown/1.6.0/dist/showdown.min.js"></script>
+	<script src="~/app/services/ngShowdown.js"></script>
 
+	<script>
+		var app = angular.module('myApp', ['ngSanitize', 'ng-showdown']);
+	</script>
 
     @RenderSection("styles", required: false)
 
@@ -66,7 +71,7 @@
 
 </head>
 
-<body ng-app>
+<body ng-app="myApp">
 	<div class="wrapper">
 		@Html.Partial("header")
 		<div class="container body-content">
