@@ -12,7 +12,6 @@ function newsController($scope: INewsScope, $http: angular.IHttpService, $showdo
         });
 
     $scope.MakeHtml = function makeHtml(markdown: string): string {
-
         return $showdown.makeHtml(markdown);
     };
     
