@@ -3306,6 +3306,8 @@
     <Content Include="Content\img\gcf-large.png" />
     <Content Include="Content\img\hh-logo2.png" />
     <Content Include="Content\img\Hilltopper1954_sm.jpg" />
+    <Content Include="Content\img\hof-small.png" />
+    <Content Include="Content\img\hof.JPG" />
     <Content Include="Content\img\logo-2.png" />
     <Content Include="Content\img\logo.png" />
     <Content Include="Content\img\logo.svg" />
@@ -4463,6 +4465,8 @@
     <Content Include="app\models\newsScope.js.map" />
     <Content Include="app\controller\newsController.js.map" />
     <Content Include="Content\pdf\EEWBrayNotes.pdf" />
+    <Content Include="Content\pdf\EEWHOFAPP.pdf" />
+    <Content Include="Content\pdf\2017 Application.DOC" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Icon.png" />
     <Content Include="index.html" />
