@@ -4462,6 +4462,7 @@
     <Content Include="app\models\awardScope.js.map" />
     <Content Include="app\models\newsScope.js.map" />
     <Content Include="app\controller\newsController.js.map" />
+    <Content Include="Content\pdf\EEWBrayNotes.pdf" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Icon.png" />
     <Content Include="index.html" />
