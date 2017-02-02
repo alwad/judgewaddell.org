@@ -1,0 +1,60 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+@section styles {
+    <link rel="stylesheet" href="~/assets/plugins/fancybox/source/jquery.fancybox.css">   
+}
+
+@section scripts {
+    <script type="text/javascript" src="~/assets/plugins/fancybox/source/jquery.fancybox.pack.js"></script>
+    <!-- JS Customization -->
+    <script type="text/javascript" src="~/assets/js/custom.js"></script>
+    <!-- JS Page Level -->
+    <script type="text/javascript" src="~/assets/js/app.js"></script>
+    <script type="text/javascript" src="~/assets/js/plugins/fancy-box.js"></script>
+    
+    <script type="text/javascript">
+        FancyBox.initFancybox();
+    </script>
+}
+
+<div class="container content">
+    <div class="text-center margin-bottom-50">
+        <h2 class="title-v2 title-center">2016 Hall of Fame Induction</h2>
+        <p class="space-lg-hor">
+			In 2016, Coach Waddell was inducted into the Highlands High School Athletic Hall of Fame. 
+			Shown here are a photograph from the ceremony and 
+			the plaque that will appear in the hall. 
+        </p>
+    </div>
+    @{ 
+        int picIndex = 0;
+        int i = picIndex;
+    }
+
+    @while (picIndex <= ViewBag.Count)
+    {
+        <div class="row  margin-bottom-30">
+
+            @for (; i < picIndex + 3; i++)
+            {
+                if (i < ViewBag.Count)
+                {
+                    <div class="col-sm-3 sm-margin-bottom-30">
+                        <a title="@ViewBag.Images[i]" class="fancybox img-hover-v1" rel="gallery2" href="@ViewBag.Images[i]">
+                            <span>
+                                <img alt="" src="@ViewBag.Images[i]" class="img-responsive">
+                            </span>
+                        </a>
+                    </div>
+                }
+            }
+            @{ 
+                picIndex += 4;
+                i = picIndex;
+            }
+
+        </div>
+    }
+</div>

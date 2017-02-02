@@ -5262,6 +5262,7 @@
     <Content Include="Service References\Application Insights\ConnectedService.json" />
     <Content Include="Views\News\Index.cshtml" />
     <Content Include="Scripts\version.json" />
+    <Content Include="Views\About\HallOfFameGallery.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="app\directives\" />

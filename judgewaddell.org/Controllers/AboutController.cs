@@ -55,5 +55,15 @@ namespace judgewaddell.org.Controllers
             return View();
         }
 
-    }
+		[HttpGet]
+		public ActionResult HallOfFameGallery()
+		{
+			ViewBag.Images = Directory.EnumerateFiles(Server.MapPath("~/content/hof-gallery"))
+							.Select(fn => "/content/hof-gallery/" + Path.GetFileName(fn)).ToList();
+
+			ViewBag.Count = ViewBag.Images.Count;
+
+			return View();
+		}
+	}
 }
