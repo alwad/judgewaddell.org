@@ -40,6 +40,9 @@
 				<h3>{{newsItem.SubTitle}}</h3>
 
 				<span ng-bind-html="MakeHtml(newsItem.Text)"></span>
+
+				<a href="{{newsItem.Link}}" ng-show="newsItem.Link != null">{{newsItem.Link}}</a>
+				
 			</div>
 		</div>
 	</div><!--/end row-->

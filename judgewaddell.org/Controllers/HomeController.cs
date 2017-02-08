@@ -12,7 +12,12 @@ namespace judgewaddell.org.Controllers
         {
             return View();
         }
-
+		
+		public ActionResult Video(string videoId)
+		{
+			ViewBag.videoId = videoId;
+			return View();
+		}
 
         public ActionResult Contact()
         {
