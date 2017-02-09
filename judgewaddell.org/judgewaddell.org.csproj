@@ -24,7 +24,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
-    <ApplicationInsightsResourceId>/subscriptions/87eca609-7d60-44de-aa03-bf70b135494a/resourcegroups/rg-webapps-eastus-payasyougo/providers/microsoft.insights/components/appinsights-eastus-payasyougo</ApplicationInsightsResourceId>
+    <ApplicationInsightsResourceId>/subscriptions/87eca609-7d60-44de-aa03-bf70b135494a/resourcegroups/rg-webapps-eastus-payasyougo/providers/microsoft.insights/components/ai-judge-waddell</ApplicationInsightsResourceId>
     <TypeScriptToolsVersion>1.8</TypeScriptToolsVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -387,6 +387,7 @@
     <Content Include="assets\img\breadcrumbs\img2.jpg" />
     <Content Include="assets\img\breadcrumbs\img3.jpg" />
     <Content Include="assets\img\main\talisman.jpg" />
+    <Content Include="assets\video\youtube-business\video-business-img1.jpg" />
     <Content Include="Content\gallery\Waddell  1952 cover page.jpg" />
     <Content Include="Content\gallery\Waddell  1962 cover page.jpg" />
     <Content Include="Content\gallery\Waddell 1944 page 3.jpg" />
