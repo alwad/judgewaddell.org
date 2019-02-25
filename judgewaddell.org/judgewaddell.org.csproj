@@ -28,6 +28,7 @@
     <TargetFrameworkProfile />
     <ApplicationInsightsResourceId>/subscriptions/9b0bbfbf-da54-42f8-a096-ecf5fa196fd5/resourcegroups/rg-vs-enterprise-us-east/providers/microsoft.insights/components/ai-web-judgewaddell-eastus</ApplicationInsightsResourceId>
     <ApplicationInsightsAnnotationResourceId>/subscriptions/9b0bbfbf-da54-42f8-a096-ecf5fa196fd5/resourcegroups/rg-vs-enterprise-us-east/providers/microsoft.insights/components/ai-web-judgewaddell-eastus</ApplicationInsightsAnnotationResourceId>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -374,6 +375,10 @@
     <Content Include="assets\img\breadcrumbs\img3.jpg" />
     <Content Include="assets\img\main\talisman.jpg" />
     <Content Include="assets\video\youtube-business\video-business-img1.jpg" />
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\gallery\Waddell  1952 cover page.jpg" />
     <Content Include="Content\gallery\Waddell  1962 cover page.jpg" />
     <Content Include="Content\gallery\Waddell 1944 page 3.jpg" />
@@ -3281,10 +3286,6 @@
     <Content Include="assets\plugins\wow-animations\js\wow.min.js" />
     <Content Include="Content\assoc\gcf.png" />
     <Content Include="Content\assoc\fts.jpg" />
-    <Content Include="Content\bootstrap-theme.css" />
-    <Content Include="Content\bootstrap-theme.min.css" />
-    <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\gallery\Waddell 1944 cover.jpg" />
     <Content Include="Content\gallery\Waddell 1944 page 1.jpg" />
     <Content Include="Content\gallery\Waddell 1944 page 2.jpg" />
@@ -3308,12 +3309,6 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
-    <Content Include="fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="Content\bootstrap-theme.css.map" />
-    <Content Include="Content\bootstrap.css.map" />
     <Content Include="assets\plugins\bootstrap\css\bootstrap-theme.css.map" />
     <Content Include="assets\plugins\bootstrap\css\bootstrap.css.map" />
     <Content Include="assets\plugins\bootstrap\fonts\glyphicons-halflings-regular.eot" />
@@ -4431,6 +4426,8 @@
     <Content Include="Scripts\angular-touch.min.js" />
     <Content Include="Scripts\angular.js" />
     <Content Include="Scripts\angular.min.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\errors.json" />
     <Content Include="Scripts\angular.min.js.map" />
     <Content Include="Scripts\angular-touch.min.js.map" />
@@ -4454,11 +4451,17 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include=".eslintignore" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
-    <Content Include="Icon.png" />
     <Content Include="index.html" />
-    <Content Include="Scripts\bootstrap.js" />
-    <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\i18n\angular-locale_af-na.js" />
     <Content Include="Scripts\i18n\angular-locale_af-za.js" />
     <Content Include="Scripts\i18n\angular-locale_af.js" />
@@ -5196,7 +5199,6 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
-    <Content Include="Scripts\npm.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
@@ -5257,6 +5259,7 @@
     <Content Include="Views\About\HallOfFameGallery.cshtml" />
     <Content Include="Views\Home\Video.cshtml" />
     <Content Include="Service References\Application Insights\ConnectedService.json" />
+    <Content Include="tsconfig.json" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="app\directives\" />

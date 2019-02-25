@@ -11,4 +11,3 @@ function newsController($scope, $http, $showdown) {
         return $showdown.makeHtml(markdown);
     };
 }
-//# sourceMappingURL=newsController.js.map
