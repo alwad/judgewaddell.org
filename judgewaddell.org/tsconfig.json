@@ -1,0 +1,7 @@
+﻿{
+  "exclude": [
+     "node_modules/*",
+     "assets/plugins/*",
+	 "scripts/*"
+  ]
+}
