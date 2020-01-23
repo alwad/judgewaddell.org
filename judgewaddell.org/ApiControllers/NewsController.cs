@@ -8,6 +8,8 @@ using System.Threading.Tasks;
 using System.Web.Http;
 using System.Web.Http.Results;
 using System.Runtime.Caching;
+using System.IO;
+using System.Web.Hosting;
 
 namespace judgewaddell.org.ApiControllers
 {
@@ -28,12 +30,11 @@ namespace judgewaddell.org.ApiControllers
 				return cacheResponse;
 			}
 
-			HttpClient client = new HttpClient();
-			var clientResponse = await client.GetAsync("https://judgewaddell.apispark.net:443/v1/news/?$sort=Date+DESC");
+			var json = File.ReadAllText(HostingEnvironment.MapPath("~/content/news.json"));
 
 			var response = Request.CreateResponse();
-			var json = await clientResponse.Content.ReadAsStringAsync();
-			response.Content = new StringContent(json, Encoding.UTF8, "application/json");
+			response.Content = new StringContent(
+				@"", Encoding.UTF8, "application/json");
 
 			_cache.Add("news", json, DateTimeOffset.UtcNow.AddHours(1));
 
