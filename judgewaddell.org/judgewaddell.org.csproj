@@ -4467,6 +4467,11 @@
     <Content Include="Content\news.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Content\pdf\2020 Application.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\pdf\2019 Application.doc" />
+    <Content Include="Content\pdf\2020 Application.doc" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="index.html" />
     <Content Include="Scripts\i18n\angular-locale_af-na.js" />

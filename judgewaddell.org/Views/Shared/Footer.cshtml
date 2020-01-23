@@ -1,59 +1,75 @@
 ﻿<div class="footer-v1" id="footer-v1">
         <div class="footer">
             <div class="container">
-                <div class="row">
-                    <!-- About -->
-                    <div class="col-md-3 md-margin-bottom-40">
-                        <a href="index.html"><img alt="" src="~/Content/img/logo.svg" class="footer-logo" id="logo-footer"></a>
-                        <p>Funding for the Scholarships is drawn from the earnings of a permanent endowment built from the contributions of former students, athletes and faculty.</p>
-                        <p>The endowment fund is managed by The Northern Kentucky Fund of the Greater Cincinnati Foundation, a well-respected local community foundation.</p>    
-                    </div>
-                    <!-- End About -->
-
-                    <!-- Latest -->
-                    <div class="col-md-3 md-margin-bottom-40">
-                        <div class="posts">
-                            <div class="headline"><h2>Latest Posts</h2></div>
-                            <ul class="list-unstyled latest-list">
+				<div class="row">
+					<!-- About -->
+					<div class="col-md-3 md-margin-bottom-40">
+						<a href="index.html"><img alt="" src="~/Content/img/logo.svg" class="footer-logo" id="logo-footer"></a>
+						<p>Funding for the Scholarships is drawn from the earnings of a permanent endowment built from the contributions of former students, athletes and faculty.</p>
+						<p>The endowment fund is managed by The Northern Kentucky Fund of the Greater Cincinnati Foundation, a well-respected local community foundation.</p>
+					</div>
+					<!-- End About -->
+					<!-- Latest -->
+					<div class="col-md-3 md-margin-bottom-40">
+						<div class="posts">
+							<div class="headline"><h2>Latest Posts</h2></div>
+							<ul class="list-unstyled latest-list">
 								<li>
 									@Html.ActionLink("In news and blogs", "Index", "News")
-								</li>                                <li>
+								</li>
+								<li>
 									@Html.ActionLink("Our newest recipient is McKenzie J. Leigh", "Index", "Scholars")
-                                    <small>2016 Scholarship</small>
-                                </li>
+									<small>2016 Scholarship</small>
+								</li>
 
-                            </ul>
-                        </div>
-                    </div>  
-                    <!-- End Latest --> 
-                    
-                    <!-- Link List -->
-                    <div class="col-md-3 md-margin-bottom-40">
-                        <div class="headline"><h2>Useful Links</h2></div>
-                        <ul class="list-unstyled link-list">
-                            <li>@Html.ActionLink("About the scholarship", "Scholarship", "About")<i class="fa fa-angle-right"></i></li>
+							</ul>
+						</div>
+					</div>
+					<!-- End Latest -->
+					<!-- Link List -->
+					<div class="col-md-3 md-margin-bottom-40">
+						<div class="headline"><h2>Useful Links</h2></div>
+						<ul class="list-unstyled link-list">
+							<li>@Html.ActionLink("About the scholarship", "Scholarship", "About")<i class="fa fa-angle-right"></i></li>
 							<li>@Html.ActionLink("News and blog", "Index", "News")<i class="fa fa-angle-right"></i></li>
-                            <li><a href="https://www.gcfdn.org/">Greater Cincinnati Foundation</a><i class="fa fa-angle-right"></i></li>
-                            <li><a href="http://www.fortthomas.kyschools.us/school_home.aspx?schoolID=1">Highlands Highschool</a><i class="fa fa-angle-right"></i></li>
-                            <li>@Html.ActionLink("Contact", "Home", "Contact")<i class="fa fa-angle-right"></i></li>
-                        </ul>
-                    </div>
-                    <!-- End Link List -->
+							<li><a href="https://www.gcfdn.org/">Greater Cincinnati Foundation</a><i class="fa fa-angle-right"></i></li>
+							<li><a href="http://www.fortthomas.kyschools.us/school_home.aspx?schoolID=1">Highlands Highschool</a><i class="fa fa-angle-right"></i></li>
+							<li>@Html.ActionLink("Contact", "Home", "Contact")<i class="fa fa-angle-right"></i></li>
+						</ul>
+					</div>
+					<!-- End Link List -->
+					<!-- Address -->
+					<div class="col-md-3 map-img md-margin-bottom-40">
+						<div class="headline"><h2>Contact the fund</h2></div>
+						<h2>Fund Administrator</h2>
+						<address class="md-margin-bottom-40">
+							Mary Pitcairn <br>
+							720 E. Pete Rose Way<br />
+							Suite 120<br />
+							Cincinnati, OH 45202
+							<a class="" href="mailto:pitcairnm@greatercincinnatifdn.org">pitcairnm@greatercincinnatifdn.org</a>
+						</address>
 
-                    <!-- Address -->
-                    <div class="col-md-3 map-img md-margin-bottom-40">
-                        <div class="headline"><h2>Contact the fund manager</h2></div>                         
-                        <address class="md-margin-bottom-40">
-                            Mary Pitcairn <br>
-                            Greater Cincinnati Foundation<br>
-                            200 W. Fourth St.<br>
-                            Cincinnati, OH 45202<br>
-                            (513) 768-6130<br>
-                            <a class="" href="mailto:pitcairnm@greatercincinnatifdn.org">pitcairnm@greatercincinnatifdn.org</a>
-                        </address>
-                    </div>
-                    <!-- End Address -->
-                </div>
+						<h2>Chairman</h2>
+						<address class="md-margin-bottom-40">
+							William Waddell <br>
+							(804) 640-3722 <br />
+							<a href="mailto:wwaddell@mcguirewoodsemeritus.com"><i class="fa fa-envelope-o"></i>wwaddell@mcguirewoodsemeritus.com</a>
+						</address>
+
+						<h2>Vice Chairman</h2>
+						<address class="md-margin-bottom-40">
+							Phillip Waddell <br>
+											<a href="mailto:pwaddell@covenantescrow.com">
+												<i class="fa fa-envelope-o"></i>
+												pwaddell@covenantescrow.com
+											</a>
+						</address>
+
+					</div>
+
+					<!-- End Address -->
+				</div>
             </div> 
         </div><!--/footer-->
 

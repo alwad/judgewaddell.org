@@ -26,22 +26,47 @@
 	<div class="col-md-9">
 		<p>&nbsp;</p>
 		<p class="alert alert-danger">
-			The application deadline for 2020 is April 15.
+			You must submit your application for this years scholarhip before April 15, 2020.
+			<br />
+			<a href="~/Content/pdf/2020 Application.pdf">
+				<i class="fa fa-cloud-download"></i> Apply Today
+			</a>
 		</p>
 	</div>
 </div>
+
 <!--=== Content Part ===-->
 <div class="container content-sm">
 	<!-- Service Blocks -->
 	<div class="row margin-bottom-30">
 		<div class="col-md-4">
 			<div class="service">
+				<i class="fa fa-bullhorn service-icon"></i>
+				<div class="desc">
+					<h4>
+						@Html.ActionLink("Scholarship Endowment Set to Double", "Index", "news", null, new { @class="text-warning" } )
+					</h4>
+					<p>
+						The Ewell “Judge” Waddell Endowed Scholarship Fund has received gifts from the Waddell 
+						family that will potentially more than double the size of the Scholarship’s endowment
+					</p>
+					<p>
+						@Html.ActionLink("Read more in the news", "Index", "news")
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-md-4">
+			<div class="service">
 				<i class="fa fa-compress service-icon"></i>
 				<div class="desc">
 					<h4>Donations</h4>
-					<p>We hope you will help us in this effort. Your gift will help remember a great man, help perpetuate the intellectual 
-					and athletic values we all believe in, help young people improve and complete themselves, and help supply the teachers, 
-					coaches and mentors that future generations of young people will need. We think that’s a great investment.</p>
+					<p>
+						We hope you will help us in this effort. Your gift will help remember a great man, help perpetuate the intellectual
+						and athletic values we all believe in, help young people improve and complete themselves, and help supply the teachers,
+						coaches and mentors that future generations of young people will need. We think that’s a great investment.
+					</p>
 				</div>
 			</div>
 		</div>
@@ -61,15 +86,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-md-4">
-			<div class="service">
-				<i class="fa fa-rocket service-icon"></i>
-				<div class="desc">
-					<h4>Book Orders</h4>
-					<p>Take a look at @Html.ActionLink("Homer Rice's books", "Books", "About") on Amazon.  All proceeds from referrals will be contributed to the Ewell "Judge" Waddell Scholarship.</p>
-				</div>
-			</div>
-		</div>
+
 	</div>
 	<!-- End Service Blokcs -->
 	<!-- Recent Works -->
