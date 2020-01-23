@@ -4461,6 +4461,12 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include=".eslintignore" />
     <Content Include="Content\pdf\2019 Application.pdf" />
+    <Content Include="Content\scholar.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\news.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="index.html" />
     <Content Include="Scripts\i18n\angular-locale_af-na.js" />
