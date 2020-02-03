@@ -1,12 +1,44 @@
 [
 	{
+		"ScholarId": 2018001,
+		"Scholar": "Nathaniel Roberts",
+		"Headline": "Nathaniel Roberts",
+		"Year": 2018,
+		"Desc": "At various points in his Highlands career, Nathaniel was Mr. Highlands Football, selected as Offensive Dominator, and given the Triple Threat Award. He lettered in three different sports, and maintained a cumulative 3.7 GPA on the academic side. Throughout his years at Highlands, he took part in and led both academic and athletic programs in Special Education. Nathaniel is intent on a career in Special Education as a teacher and coach, and is currently enrolled on that track at the University of Kentucky.",
+		"Link": ""
+	},
+	{
+		"ScholarId": 2018002,
+		"Scholar": "Will James Salmon",
+		"Headline": "Will James Salmon",
+		"Year": 2018,
+		"Desc": "Will personifies the student-athlete profile the Scholarship seeks to support. Twice a football Captain, and recipient of the Red Dog Spirit Award  his junior year, Will's teachers, coaches and colleagues all speak of his determination, dedication and plain grit in whatever he takes on. He has serious teaching and coaching ambitions, with a particular focus on Special Education, and is at Northern Kentucky University.",
+		"Link": ""
+	},
+	{
 		"ScholarId": 1,
 		"Scholar": "McKenzie J. Leigh",
-		"Headline": "Our newest recipient is McKenzie J. Leigh",
+		"Headline": "McKenzie J. Leigh",
 		"Year": 2016,
 		"Desc": "McKenzie was a four-year Super Honor Roll student-athlete at Highlands. She received the Presidential Award for \nAcademic Excellence at Highlands and has the distinction of being a 2015 Kentucky Governor’s Scholar. Among \nother things at HHS she was a member of National Honor Society, National English Honor Society, National\nSpanish Honor Society, and Future Business Leaders of America.  McKenzie was a three-year starter on the \nVarsity Girls Basketball team, receiving 5 Varsity letters and being a team captain her senior year.  She mas \nnamed the MVP of the LaRosas Holiday Classic Tournament in 2015 and to the 9th Region All-Tournament \nteam in 2014, 2015, and 2016. In 2015, she received the Highlands High School David Cecil Citizenship \nAward by a unanimous vote from all the Varsity athletic coaches at Highlands. Combining both athletics \nand academics, she also received the Northern Kentucky High School Girls Basketball Coaches’ Association \nDivision II Academic Award. \n\nMcKenzie is attending the University of Kentucky, in addition to receiving the E.E. \"Judge\" Waddell Scholarship,\nshe has received the Presidential Scholarship which covers Full Tuition for four years. Her first semester produced\na 3.73 GPA.  \n\nCongratulations!\n",
 		"Link": ""
 	},
+	{
+		"ScholarId": 2015001,
+		"Scholar": "Claudia Hils",
+		"Headline": "Claudia Hils",
+		"Year": 2015,
+		"Desc": "Claudia was an outstanding student-athlete at Highlands, with a concentration in soccer. She was captain of a nationally-ranked soccer team , lettered three times, and coached an elementary soccer team, all while achieving a straight A academic record and serving in numerous leadership positions in her class and other organizations, including the National Honor Society. She is compiling a similarly impressive record at NKU, holding a number of leadership positions and a 4.0 GPA, and is still very committed to teaching and coaching.",
+		"Link": ""
+	},
+	{
+		"ScholarId": 2014001,
+		"Scholar": "Mallory Seidel",
+		"Headline": "Mallory Seidel",
+		"Year": 2014,
+		"Desc": "Mallory was captain of the Highlands varsity volleyball team as a senior, after several standout years in that sport, including\nbeing named MVP of her freshman team. Mallory was also a member of the tennis and track teams during her Highland years.  \nExcellent academic achievement and numerous volunteer commitments rouded out a career that led the Scholarship Committee \nto name her our 2014 recipient.  Mallory is currently in her third year at the University of Louisville, working toward an \nEducation degree, continuing her great volunteer work with everything from Special Olympics to Habitat for Humanity, \nand being elected VP of the U of L College of Education for 2016-2017.  ",
+		"Link": ""
+	},	
 	{
 		"ScholarId": 2,
 		"Scholar": "Mallory Seidel",
