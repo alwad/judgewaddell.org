@@ -34,7 +34,7 @@ namespace judgewaddell.org.ApiControllers
 
 			var response = Request.CreateResponse();
 			response.Content = new StringContent(
-				@"", Encoding.UTF8, "application/json");
+				json, Encoding.UTF8, "application/json");
 
 			_cache.Add("news", json, DateTimeOffset.UtcNow.AddHours(1));
 
