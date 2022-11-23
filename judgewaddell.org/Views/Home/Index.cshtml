@@ -1,274 +1,276 @@
 ﻿@{
-	ViewBag.Title = "Home Page";
+    ViewBag.Title = "Home Page";
 }
 
 @Html.Partial("slider")
 
-<!--=== Purchase Block ===-->
-<div class="purchase">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-9 animated fadeInLeft">
-				<span>The Judge Waddell Endowed Scholarship Fund</span>
-				<p>Highlands students are eligible for the scholarship and we encourage you to apply.</p>				
-				<p>Scholarship awards are determined by an Advisory Committee made up of people who know and love the Highlands tradition. They select “student-athletes” who have demonstrated athleticism, character and intellect, and intend to pursue a career in education.</p>
-			</div>
-			<div class="col-md-3 btn-buy animated fadeInRight">
-				<a href="~/Content/pdf/WaddellScholarshipApplication.pdf"  class="btn-u btn-u-lg">
-					<i class="fa fa-cloud-download"></i> Apply Today
-				</a>
-				<p>Deadline: April 18th 2022</p>
-			</div>
-		</div>
 
-	</div>
-</div><!--/row-->
+<!--=== Purchase Block ===-->
+<!--<div class="purchase">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9 animated fadeInLeft">
+                <span>The Judge Waddell Endowed Scholarship Fund</span>
+                <p>Highlands students are eligible for the scholarship and we encourage you to apply.</p>
+                <p>Scholarship awards are determined by an Advisory Committee made up of people who know and love the Highlands tradition. They select “student-athletes” who have demonstrated athleticism, character and intellect, and intend to pursue a career in education.</p>
+            </div>
+            <div class="col-md-3 btn-buy animated fadeInRight">
+                <a href="~/Content/pdf/WaddellScholarshipApplication.pdf" class="btn-u btn-u-lg">
+                    <i class="fa fa-cloud-download"></i> Apply Today
+                </a>
+                <p>Deadline: April 18th 2022</p>
+            </div>
+        </div>
+
+    </div>
+</div>-->
+<!--/row-->
 
 <!--=== Content Part ===-->
 <div class="container content-sm">
-	<!-- Service Blocks -->
-	<div class="row margin-bottom-30">
-		<div class="col-md-4">
-			<div class="service">
-				<i class="fa fa-bullhorn service-icon"></i>
-				<div class="desc">
-					<h4>
-						@Html.ActionLink("Homer Rice statue unveiled", "Index", "news", null, new { @class="text-warning" } )
-					</h4>
-					<p>
-						Georgia Tech athletics unveiled a statue of legendary director of athletics Homer Rice on Friday.
-						The statue is located on Callaway Plaza, just outside of Bobby Dodd Stadium, and steps from the entrance 
-						to Georgia Tech’s Homer Rice Center for Sports Performance.
-					</p>
-					<p>
-						@Html.ActionLink("Read more in the news", "Index", "news")
-					</p>
-				</div>
-			</div>
-		</div>
+    <!-- Service Blocks -->
+    <div class="row margin-bottom-30">
+        <div class="col-md-4">
+            <div class="service">
+                <i class="fa fa-bullhorn service-icon"></i>
+                <div class="desc">
+                    <h4>
+                        @Html.ActionLink("Homer Rice statue unveiled", "Index", "news", null, new { @class = "text-warning" })
+                    </h4>
+                    <p>
+                        Georgia Tech athletics unveiled a statue of legendary director of athletics Homer Rice on Friday.
+                        The statue is located on Callaway Plaza, just outside of Bobby Dodd Stadium, and steps from the entrance
+                        to Georgia Tech’s Homer Rice Center for Sports Performance.
+                    </p>
+                    <p>
+                        @Html.ActionLink("Read more in the news", "Index", "news")
+                    </p>
+                </div>
+            </div>
+        </div>
 
-		<div class="col-md-4">
-			<div class="service">
-				<i class="fa fa-compress service-icon"></i>
-				<div class="desc">
-					<h4>Donations</h4>
-					<p>
-						We hope you will help us in this effort. Your gift will help remember a great man, help perpetuate the intellectual
-						and athletic values we all believe in, help young people improve and complete themselves, and help supply the teachers,
-						coaches and mentors that future generations of young people will need. We think that’s a great investment.
-					</p>
-					<p>
-						@Html.ActionLink("Donate Now", "Donate", "About")
-					</p>					
-				</div>
-			</div>
-		</div>
-		<div class="col-md-4">
-			<div class="service">
-				<i class="fa fa-cogs service-icon"></i>
-				<div class="desc">
-					<h4>Scholarship</h4>
-					<p>
-						Scholarship recipients will be “student-athletes” who have demonstrated athleticism, character and intellect, and
-						intend to pursue a career in education. Recipients will be chosen by an Advisory Committee made up of people who
-						know and love the Highlands tradition.
-					</p>
-					<p>
-						@Html.ActionLink("Read a letter from Dr. Homer Rice to learn more", "riceletter", "about")
-					</p>
-				</div>
-			</div>
-		</div>
+        <div class="col-md-4">
+            <div class="service">
+                <i class="fa fa-compress service-icon"></i>
+                <div class="desc">
+                    <h4>Donations</h4>
+                    <p>
+                        We hope you will help us in this effort. Your gift will help remember a great man, help perpetuate the intellectual
+                        and athletic values we all believe in, help young people improve and complete themselves, and help supply the teachers,
+                        coaches and mentors that future generations of young people will need. We think that’s a great investment.
+                    </p>
+                    <p>
+                        @Html.ActionLink("Donate Now", "Donate", "About")
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="service">
+                <i class="fa fa-cogs service-icon"></i>
+                <div class="desc">
+                    <h4>Scholarship</h4>
+                    <p>
+                        Scholarship recipients will be “student-athletes” who have demonstrated athleticism, character and intellect, and
+                        intend to pursue a career in education. Recipients will be chosen by an Advisory Committee made up of people who
+                        know and love the Highlands tradition.
+                    </p>
+                    <p>
+                        @Html.ActionLink("Read a letter from Dr. Homer Rice to learn more", "riceletter", "about")
+                    </p>
+                </div>
+            </div>
+        </div>
 
-	</div>
-	<!-- End Service Blokcs -->
-	<!-- Recent Works -->
-	<div class="headline"><h2>Recent Waddell Scholars</h2></div>
-	<div class="row margin-bottom-20">
-		
-		<div class="col-md-3 col-sm-6">
-			<div class="thumbnails thumbnail-style thumbnail-kenburn">
-				<div class="thumbnail-img">
-					<div class="overflow-hidden">
-						<span class="dropcap">Abraham</span>
-					</div>
-					<a class="btn-more hover-effect" href="@Url.Action("Index", "Scholars")">more +</a>
-				</div>
-				<div class="caption">
-					<h3><a class="hover-effect" href="/Scholars">2022: Abraham Martin Hils  </a></h3>
-					<p>
-						Abe is described as ‘a truly special young man… a fantastic student who shows an incredible desire to learn… the type of student who can change the dynamic of a school… he speaks to everyone when he enters a room and thanks his teacher as he leaves… has an uplifting effect on the morale inside our classrooms’ and ‘genuinely cares about those around him… his effort and energy were infectious… completes his work with excellence… a young man of the utmost integrity, character, and humility’.
-					</p>
-				</div>
-			</div>
-		</div>
-		
-		<div class="col-md-3 col-sm-6">
-			<div class="thumbnails thumbnail-style thumbnail-kenburn">
-				<div class="thumbnail-img">
-					<div class="overflow-hidden">
-						<span class="dropcap">Brycen</span>
-					</div>
-					<a class="btn-more hover-effect" href="@Url.Action("Index", "Scholars")">more +</a>
-				</div>
-				<div class="caption">
-					<h3><a class="hover-effect" href="/Scholars">2020: Brycen T. Huddleston  </a></h3>
-					<p>
-						Bycen is described as having ‘the highest level of character and integrity that we all want represented in the teaching profession’ and as ‘an advocate for all students… kind to everyone on a daily basis’.
-					</p>
-				</div>
-			</div>
-		</div>
-		
-		<div class="col-md-3 col-sm-6">
-			<div class="thumbnails thumbnail-style thumbnail-kenburn">
-				<div class="thumbnail-img">
-					<div class="overflow-hidden">
-						<span class="dropcap">Meghan</span>
-					</div>
-					<a class="btn-more hover-effect" href="@Url.Action("Index", "Scholars")">more +</a>
-				</div>
-				<div class="caption">
-					<h3><a class="hover-effect" href="/Scholars">2020: Meghan V. Walz  </a></h3>
-					<p>
-						Megan is described as ‘kind, ethical, diligent, and well-grounded… not only is she a leader on the court and in the locker room, she is a leader amongst the student body’ and ‘a well-rounded, caring, and responsible young woman… what makes Meghan truly stand out from her peers is her character and drive to better the lives of those around her’. 
-					</p>
-				</div>
-			</div>
-		</div>
-		
-		<div class="col-md-3 col-sm-6">
-			<div class="thumbnails thumbnail-style thumbnail-kenburn">
-				<div class="thumbnail-img">
-					<div class="overflow-hidden">
-						<span class="dropcap">Nathaniel</span>
-					</div>
-					<a class="btn-more hover-effect" href="@Url.Action("Index", "Scholars")">more +</a>
-				</div>
-				<div class="caption">
-					<h3><a class="hover-effect" href="/Scholars">2019: Nathaniel Roberts  </a></h3>
-					<p>
-						At various points in his Highlands career, Nathaniel was Mr. Highlands Football, selected as Offensive 
-						Dominator, and given the Triple Threat Award. He lettered in three different sports, and
-						maintained a cumulative 3.7 GPA on the academic side. 
-					</p>
-				</div>
-			</div>
-		</div>
+    </div>
+    <!-- End Service Blokcs -->
+    <!-- Recent Works -->
+    <div class="headline"><h2>Recent Waddell Scholars</h2></div>
+    <div class="row margin-bottom-20">
 
-		@* 2014: Mallory Seidel *@
-		@*<div class="col-md-3 col-sm-6">
-			<div class="thumbnails thumbnail-style thumbnail-kenburn">
-				<div class="thumbnail-img">
-					<div class="overflow-hidden">
-						<span class="dropcap">Will</span>
-					</div>
-					<a class="btn-more hover-effect" href="@Url.Action("Index", "Scholars")">more +</a>
-				</div>
-				<div class="caption">
-					<h3><a class="hover-effect" href="/Scholars">2019: Will James Salmon </a></h3>
-					<p>
-						Will personifies the student-athlete profile the Scholarship seeks to support. 
-					</p>
-				</div>
-			</div>
-		</div>*@
+        <div class="col-md-3 col-sm-6">
+            <div class="thumbnails thumbnail-style thumbnail-kenburn">
+                <div class="thumbnail-img">
+                    <div class="overflow-hidden">
+                        <span class="dropcap">Abraham</span>
+                    </div>
+                    <a class="btn-more hover-effect" href="@Url.Action("Index", "Scholars")">more +</a>
+                </div>
+                <div class="caption">
+                    <h3><a class="hover-effect" href="/Scholars">2022: Abraham Martin Hils  </a></h3>
+                    <p>
+                        Abe is described as ‘a truly special young man… a fantastic student who shows an incredible desire to learn… the type of student who can change the dynamic of a school… he speaks to everyone when he enters a room and thanks his teacher as he leaves… has an uplifting effect on the morale inside our classrooms’ and ‘genuinely cares about those around him… his effort and energy were infectious… completes his work with excellence… a young man of the utmost integrity, character, and humility’.
+                    </p>
+                </div>
+            </div>
+        </div>
 
-		@*<div class="col-md-3 col-sm-6">
-			<div class="thumbnails thumbnail-style thumbnail-kenburn">
-				<div class="thumbnail-img">
-					<div class="overflow-hidden">
-						<span class="dropcap">Claudia</span>
-					</div>
-					<a class="btn-more hover-effect" href="@Url.Action("Index", "Scholars")">more +</a>
-				</div>
-				<div class="caption">
-					<h3><a class="hover-effect" href="/Scholars">2017: Claudia Hils</a></h3>
-					<p>
-						Claudia was an outstanding student-athlete at Highlands, with a 
-						concentration in soccer. 
-					</p>
-				</div>
-			</div>
-		</div>*@
+        <div class="col-md-3 col-sm-6">
+            <div class="thumbnails thumbnail-style thumbnail-kenburn">
+                <div class="thumbnail-img">
+                    <div class="overflow-hidden">
+                        <span class="dropcap">Brycen</span>
+                    </div>
+                    <a class="btn-more hover-effect" href="@Url.Action("Index", "Scholars")">more +</a>
+                </div>
+                <div class="caption">
+                    <h3><a class="hover-effect" href="/Scholars">2020: Brycen T. Huddleston  </a></h3>
+                    <p>
+                        Bycen is described as having ‘the highest level of character and integrity that we all want represented in the teaching profession’ and as ‘an advocate for all students… kind to everyone on a daily basis’.
+                    </p>
+                </div>
+            </div>
+        </div>
 
-		@* end row *@
-	</div>
+        <div class="col-md-3 col-sm-6">
+            <div class="thumbnails thumbnail-style thumbnail-kenburn">
+                <div class="thumbnail-img">
+                    <div class="overflow-hidden">
+                        <span class="dropcap">Meghan</span>
+                    </div>
+                    <a class="btn-more hover-effect" href="@Url.Action("Index", "Scholars")">more +</a>
+                </div>
+                <div class="caption">
+                    <h3><a class="hover-effect" href="/Scholars">2020: Meghan V. Walz  </a></h3>
+                    <p>
+                        Megan is described as ‘kind, ethical, diligent, and well-grounded… not only is she a leader on the court and in the locker room, she is a leader amongst the student body’ and ‘a well-rounded, caring, and responsible young woman… what makes Meghan truly stand out from her peers is her character and drive to better the lives of those around her’.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+            <div class="thumbnails thumbnail-style thumbnail-kenburn">
+                <div class="thumbnail-img">
+                    <div class="overflow-hidden">
+                        <span class="dropcap">Nathaniel</span>
+                    </div>
+                    <a class="btn-more hover-effect" href="@Url.Action("Index", "Scholars")">more +</a>
+                </div>
+                <div class="caption">
+                    <h3><a class="hover-effect" href="/Scholars">2019: Nathaniel Roberts  </a></h3>
+                    <p>
+                        At various points in his Highlands career, Nathaniel was Mr. Highlands Football, selected as Offensive
+                        Dominator, and given the Triple Threat Award. He lettered in three different sports, and
+                        maintained a cumulative 3.7 GPA on the academic side.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        @* 2014: Mallory Seidel *@
+        @*<div class="col-md-3 col-sm-6">
+                <div class="thumbnails thumbnail-style thumbnail-kenburn">
+                    <div class="thumbnail-img">
+                        <div class="overflow-hidden">
+                            <span class="dropcap">Will</span>
+                        </div>
+                        <a class="btn-more hover-effect" href="@Url.Action("Index", "Scholars")">more +</a>
+                    </div>
+                    <div class="caption">
+                        <h3><a class="hover-effect" href="/Scholars">2019: Will James Salmon </a></h3>
+                        <p>
+                            Will personifies the student-athlete profile the Scholarship seeks to support.
+                        </p>
+                    </div>
+                </div>
+            </div>*@
+
+        @*<div class="col-md-3 col-sm-6">
+                <div class="thumbnails thumbnail-style thumbnail-kenburn">
+                    <div class="thumbnail-img">
+                        <div class="overflow-hidden">
+                            <span class="dropcap">Claudia</span>
+                        </div>
+                        <a class="btn-more hover-effect" href="@Url.Action("Index", "Scholars")">more +</a>
+                    </div>
+                    <div class="caption">
+                        <h3><a class="hover-effect" href="/Scholars">2017: Claudia Hils</a></h3>
+                        <p>
+                            Claudia was an outstanding student-athlete at Highlands, with a
+                            concentration in soccer.
+                        </p>
+                    </div>
+                </div>
+            </div>*@
+
+        @* end row *@
+    </div>
 
 
-	<!-- End Recent Works -->
-	<!-- Info Blokcs -->
-	@*<div class="row margin-bottom-30">
-			<!-- Welcome Block -->
-			<div class="col-md-8 md-margin-bottom-40">
-				<div class="headline"><h2>Welcome To Unify</h2></div>
-				<div class="row">
-					<div class="col-sm-4">
-						<img class="img-responsive margin-bottom-20" src="assets/img/main/img18.jpg" alt="">
-					</div>
-					<div class="col-sm-8">
-						<p>Unify is an incredibly beautiful responsive Bootstrap Template for corporate and creative professionals. It works on all major web browsers, tablets and phone.</p>
-						<ul class="list-unstyled margin-bottom-20">
-							<li><i class="fa fa-check color-green"></i> Donec id elit non mi porta gravida</li>
-							<li><i class="fa fa-check color-green"></i> Corporate and Creative</li>
-							<li><i class="fa fa-check color-green"></i> Responsive Bootstrap Template</li>
-							<li><i class="fa fa-check color-green"></i> Corporate and Creative</li>
-						</ul>
-					</div>
-				</div>
+    <!-- End Recent Works -->
+    <!-- Info Blokcs -->
+    @*<div class="row margin-bottom-30">
+            <!-- Welcome Block -->
+            <div class="col-md-8 md-margin-bottom-40">
+                <div class="headline"><h2>Welcome To Unify</h2></div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <img class="img-responsive margin-bottom-20" src="assets/img/main/img18.jpg" alt="">
+                    </div>
+                    <div class="col-sm-8">
+                        <p>Unify is an incredibly beautiful responsive Bootstrap Template for corporate and creative professionals. It works on all major web browsers, tablets and phone.</p>
+                        <ul class="list-unstyled margin-bottom-20">
+                            <li><i class="fa fa-check color-green"></i> Donec id elit non mi porta gravida</li>
+                            <li><i class="fa fa-check color-green"></i> Corporate and Creative</li>
+                            <li><i class="fa fa-check color-green"></i> Responsive Bootstrap Template</li>
+                            <li><i class="fa fa-check color-green"></i> Corporate and Creative</li>
+                        </ul>
+                    </div>
+                </div>
 
-				<blockquote class="hero-unify">
-					<p>Award winning digital agency. We bring a personal and effective approach to every project we work on, which is why. Unify is an incredibly beautiful responsive Bootstrap Template for corporate professionals.</p>
-					<small>CEO, Jack Bour</small>
-				</blockquote>
-			</div><!--/col-md-8-->
-			<!-- Latest Shots -->
-			<div class="col-md-4">
-				<div class="headline"><h2>Latest Shots</h2></div>
-				<div id="myCarousel" class="carousel slide carousel-v1">
-					<div class="carousel-inner">
-						<div class="item active">
-							<img src="assets/img/main/img4.jpg" alt="">
-							<div class="carousel-caption">
-								<p>Facilisis odio, dapibus ac justo acilisis gestinas.</p>
-							</div>
-						</div>
-						<div class="item">
-							<img src="assets/img/main/img2.jpg" alt="">
-							<div class="carousel-caption">
-								<p>Cras justo odio, dapibus ac facilisis into egestas.</p>
-							</div>
-						</div>
-						<div class="item">
-							<img src="assets/img/main/img24.jpg" alt="">
-							<div class="carousel-caption">
-								<p>Justo cras odio apibus ac afilisis lingestas de.</p>
-							</div>
-						</div>
-					</div>
+                <blockquote class="hero-unify">
+                    <p>Award winning digital agency. We bring a personal and effective approach to every project we work on, which is why. Unify is an incredibly beautiful responsive Bootstrap Template for corporate professionals.</p>
+                    <small>CEO, Jack Bour</small>
+                </blockquote>
+            </div><!--/col-md-8-->
+            <!-- Latest Shots -->
+            <div class="col-md-4">
+                <div class="headline"><h2>Latest Shots</h2></div>
+                <div id="myCarousel" class="carousel slide carousel-v1">
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="assets/img/main/img4.jpg" alt="">
+                            <div class="carousel-caption">
+                                <p>Facilisis odio, dapibus ac justo acilisis gestinas.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="assets/img/main/img2.jpg" alt="">
+                            <div class="carousel-caption">
+                                <p>Cras justo odio, dapibus ac facilisis into egestas.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="assets/img/main/img24.jpg" alt="">
+                            <div class="carousel-caption">
+                                <p>Justo cras odio apibus ac afilisis lingestas de.</p>
+                            </div>
+                        </div>
+                    </div>
 
-					<div class="carousel-arrow">
-						<a class="left carousel-control" href="#myCarousel" data-slide="prev">
-							<i class="fa fa-angle-left"></i>
-						</a>
-						<a class="right carousel-control" href="#myCarousel" data-slide="next">
-							<i class="fa fa-angle-right"></i>
-						</a>
-					</div>
-				</div>
-			</div><!--/col-md-4-->
-		</div>*@
-	<!-- End Info Blokcs -->
-	<!-- Owl Clients v1 -->
-	<div class="headline"><h2>In association with</h2></div>
-	<div class="owl-clients-v1">
-		<div class="item">
-			<img src="~/content/assoc/gcf.png" alt="">
-		</div>
-		<div class="item">
-			<img src="~/Content/assoc/fts.jpg" alt="">
-		</div>
-	</div>
-	<!-- End Owl Clients v1 -->
+                    <div class="carousel-arrow">
+                        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                            <i class="fa fa-angle-left"></i>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                            <i class="fa fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div><!--/col-md-4-->
+        </div>*@
+    <!-- End Info Blokcs -->
+    <!-- Owl Clients v1 -->
+    <div class="headline"><h2>In association with</h2></div>
+    <div class="owl-clients-v1">
+        <div class="item">
+            <img src="~/content/assoc/gcf.png" alt="">
+        </div>
+        <div class="item">
+            <img src="~/Content/assoc/fts.jpg" alt="">
+        </div>
+    </div>
+    <!-- End Owl Clients v1 -->
 </div><!--/container-->
 <!-- End Content Part -->
