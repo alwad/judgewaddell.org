@@ -4398,6 +4398,7 @@
     <Content Include="assets\plugins\wow-animations\README.md" />
     <Content Include="Content\pdf\donate.pdf" />
     <Content Include="Content\pdf\application.pdf" />
+    <Content Include="Content\pdf\2026application.pdf" />
     <Content Include="Content\pdf\bw.pdf" />
     <Content Include="Scripts\angular-animate.js" />
     <Content Include="Scripts\angular-animate.min.js" />
